@@ -1,0 +1,35 @@
+{
+  "name": "jest-quiz",
+  "version": "1.0.0",
+  "description": "Quiz with Jest Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom2kota/jest.git"
+  },
+  "keywords": [
+    "quiz",
+    "jest",
+    "js",
+    "javascript"
+  ],
+  "author": "Tom Kota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tom2kota/jest/issues"
+  },
+  "homepage": "https://github.com/tom2kota/jest#readme",
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "@jest/globals": "^26.0.1",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.0.1"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.10.1"
+  }
+}
