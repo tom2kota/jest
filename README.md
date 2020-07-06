@@ -44,3 +44,12 @@ test('Reverse reverses a string', () => {
 });
 
 ```
+
+upgrading the vulnerable packages and running
+```
+npm audit fix --force
+```
+
+---------
+
+[origin](https://github.com/StephenGrider/algocasts)
