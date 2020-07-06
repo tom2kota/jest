@@ -24,12 +24,12 @@
   "homepage": "https://github.com/tom2kota/jest#readme",
   "devDependencies": {
     "jest": "^26.0.1",
-    "@jest/globals": "^26.0.1",
-    "@babel/core": "^7.10.3",
-    "@babel/preset-env": "^7.10.3",
     "babel-jest": "^26.0.1"
   },
   "dependencies": {
-    "@babel/preset-typescript": "^7.10.1"
+    "@babel/preset-typescript": "^7.10.1",
+    "@jest/globals": "^26.0.1",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3"
   }
 }

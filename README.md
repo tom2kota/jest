@@ -5,13 +5,42 @@ Quiz with Jest (JavaScript framework)
 
 -----------------
 
+## JS Playground
+
+[JSPlayground](https://stephengrider.github.io/JSPlaygrounds/)
+
+
+-----------------
+
+### Global install
 ``` 
 npm i --save-dev jest babel-jest @babel/core @babel/preset-env
 npm i -g jest
+```
 
-jest reversestring/test.js --watch
+``` 
+jest quiz/reversestring/test.js --watch
+```
 
-cd exercises && jest
-cd completed_exercises && jest
+-------
+
+### Local install
+
+``` 
+npm i jest babel-jest @babel/core @babel/preset-env
+npm i jest
+```
+
+```
+import {expect, test} from "@jest/globals";
+import reverse from "./index";
+
+test('Reverse function exists', () => {
+    expect(reverse).toBeDefined();
+});
+
+test('Reverse reverses a string', () => {
+    expect(reverse('abcd')).toEqual('dcba');
+});
 
 ```
